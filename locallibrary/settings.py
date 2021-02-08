@@ -25,7 +25,14 @@ SECRET_KEY = 'rhgdgt@$+g2)@=vtf)v^mcv^n+mg6jjj6-z*6%8@7g-c!ahps$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'mrtester929@gmail.com'
+EMAIL_HOST_PASSWORD = 'Zaq1!2wsx'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
+# Use EMAIL_BACkEND and comment above EMAIL vars to send email to console
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
